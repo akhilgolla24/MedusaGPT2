@@ -1,3 +1,38 @@
+*HPML Final Project:*
+
+Akhil Golla (ag4812),
+Naren Loganathan (nl2878)
+
+We implemented Medusa Inference Accelaration on small models and profiled inference time to see if this inference acceletarioin method could work in such cases.
+We experimented with the Maykeye/TinyLLama-v0 that has 4.62M params from HuggingFace. This model wsa trained on the roneneldan/TinyStories dataset, which has a small vocabulary with the specific intent to train small Lms.
+
+Generate dataset used for medusa head training  from TinyStories dataset on HuggingFace:
+
+...
+
+Running axolotl training script:
+
+.....
+
+Running Inference client for medusa:
+
+...
+
+Running Inference client for base model:
+
+...
+
+
+
+
+Changelog (list of files that we added/modified):
+
+
+
+
+
+---
+
 <img src="assets/logo.png" alt="Medusa" width="100" align="left"><div align="center"><h1>&nbsp;Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads</h1></div>
 
 <p align="center">
